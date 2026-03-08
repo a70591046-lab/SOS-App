@@ -22,7 +22,7 @@ jobs:
       - name: Build APK with Buildozer
         run: |
           export PATH=$PATH:$HOME/.local/bin
-          # Litsenziyalarni majburan qabul qilish
+          # Litsenziyalarni majburan qabul qilish va buildni boshlash
           yes | buildozer android debug
         continue-on-error: false
 
